@@ -23,7 +23,9 @@ The setup requires a little bit more work. I will try to describe as detail as p
 
 ## iOS
 
-# ios for React Native version > 0.61
+### ios for React Native version > 0.61
+
+- https://github.com/alinz/react-native-share-extension/issues/182#issuecomment-534993812
 
 - Click on your project's name
 - Click on `+` sign
@@ -580,6 +582,8 @@ Cheers
 # Fix Error
 
 https://github.com/react-native-community/upgrade-support/issues/36#issuecomment-634677433
+
 https://github.com/react-native-community/upgrade-support/issues/66#issuecomment-630557874
+
 https://github.com/facebook/react-native/pull/26077#issue-307840473
 
