@@ -19,7 +19,7 @@ npm install react-native-share-extension --save
 
 The setup requires a little bit more work. I will try to describe as detail as possible. I would love to use `rnpm` so I will welcome pull request.
 
-## ios for React Native version > 0.61
+## iOS for React Native version > 0.61
 
 - https://github.com/alinz/react-native-share-extension/issues/182#issuecomment-534993812
 
