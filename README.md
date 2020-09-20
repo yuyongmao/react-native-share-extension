@@ -19,7 +19,11 @@ npm install react-native-share-extension --save
 
 The setup requires a little bit more work. I will try to describe as detail as possible. I would love to use `rnpm` so I will welcome pull request.
 
+
+
 ## iOS
+
+# ios for React Native version > 0.61
 
 - Click on your project's name
 - Click on `+` sign
@@ -571,3 +575,11 @@ Using the iOS Simulator and remote react-native debugger to develop the extensio
 I have used `react-native-modalbox` module to handle the showing and hiding share extension which makes the experience more enjoyable for the user.
 
 Cheers
+
+
+# Fix Error
+
+https://github.com/react-native-community/upgrade-support/issues/36#issuecomment-634677433
+https://github.com/react-native-community/upgrade-support/issues/66#issuecomment-630557874
+https://github.com/facebook/react-native/pull/26077#issue-307840473
+
