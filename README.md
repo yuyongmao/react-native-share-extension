@@ -587,3 +587,5 @@ https://github.com/react-native-community/upgrade-support/issues/66#issuecomment
 
 https://github.com/facebook/react-native/pull/26077#issue-307840473
 
+https://github.com/facebook/react-native/issues/25629#issuecomment-511209583
+
