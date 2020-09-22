@@ -592,3 +592,7 @@ https://github.com/facebook/react-native/issues/25629#issuecomment-511209583
 
 https://github.com/alinz/react-native-share-extension/issues/163#issuecomment-517259193
 
+https://github.com/alinz/react-native-share-extension/issues/209#issuecomment-686760453
+
+https://github.com/alinz/react-native-share-extension/issues/48#issuecomment-317587122
+
