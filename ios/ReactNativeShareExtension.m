@@ -49,8 +49,19 @@ RCT_EXPORT_METHOD(close) {
 
 RCT_EXPORT_METHOD(openURL:(NSString *)url) {
   UIApplication *application = [UIApplication sharedApplication];
-  NSURL *urlToOpen = [NSURL URLWithString:[url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
+  NSString *encodingString = [url stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
+  NSURL *urlToOpen = [NSURL URLWithString:encodingString];
   [application openURL:urlToOpen options:@{} completionHandler: nil];
+}
+
+RCT_EXPORT_METHOD(decodeUrl:(NSString *)url resolver:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject) {
+  NSString *decodeUrl =[url stringByRemovingPercentEncoding];
+  if(decodeUrl==nil){
+      reject(@"",@"",[NSError errorWithDomain:NSURLErrorDomain code:1 userInfo:@{NSLocalizedDescriptionKey:@""}]);
+  }
+  else{
+      resolve(decodeUrl);
+  }
 }
 
 
