@@ -1,6 +1,6 @@
 {
   "name": "react-native-share-extension",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "share extension using react-native for both ios and android",
   "main": "lib/index.js",
   "scripts": {
@@ -12,8 +12,8 @@
   },
   "keywords": ["react-component", "react-native", "share-extension"],
   "author": {
-    "name": "Ali Najafizadeh",
-    "email": "a.najafizadeh@gmail.com",
+    "name": "BigBug",
+    "email": "yuyongmao1988@gmail.com",
     "url": "http://github.com/yuyongmao"
   },
   "license": "MIT",
